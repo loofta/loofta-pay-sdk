@@ -4,7 +4,9 @@ Embeddable **Loofta Pay Button** for React.
 
 - **Repository:** [github.com/loofta/loofta-pay-sdk](https://github.com/loofta/loofta-pay-sdk)
 - **Examples:** [examples/pay-button-demo](https://github.com/loofta/loofta-pay-sdk/tree/master/examples/pay-button-demo)
-- **Live demo:** [pay.loofta.xyz/b2b/demo](https://pay.loofta.xyz/b2b/demo) The button opens **Loofta’s hosted checkout** — your customers pay there, and funds go to the destination wallet, network, and token configured in your organization.
+- **Live demo:** [pay.loofta.xyz/b2b/demo](https://pay.loofta.xyz/b2b/demo)
+
+**Multi-chain private checkout** for your dapp. **Start receiving multichain payments** with **cross-chain intent** — one embeddable Pay Button, **120+ tokens and networks** (Ethereum, Base, Solana, Arbitrum, Polygon, NEAR, and more). The button opens **Loofta’s hosted checkout** — your customers pay there, and funds go to the destination wallet, network, and token configured in your organization.
 
 ## Requirements
 

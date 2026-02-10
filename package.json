@@ -1,7 +1,7 @@
 {
   "name": "@loofta/pay-sdk",
   "version": "1.0.5",
-  "description": "Loofta Pay Button SDK - embeddable payment button that opens Loofta Pay checkout",
+  "description": "Multi-chain private checkout for your dapp. Start receiving multichain payments with cross-chain intent — 120+ tokens and networks. Embeddable Pay Button for React.",
   "author": "Loofta",
   "license": "MIT",
   "main": "./dist/index.js",
@@ -37,7 +37,7 @@
   "bugs": {
     "url": "https://github.com/loofta/loofta-pay-sdk/issues"
   },
-  "keywords": ["loofta", "pay", "payment", "checkout", "crypto", "multichain"],
+  "keywords": ["loofta", "pay", "payment", "checkout", "crypto", "multichain", "cross-chain", "intent", "dapp", "web3", "react"],
   "publishConfig": {
     "access": "public"
   }
