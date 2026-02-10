@@ -1,6 +1,6 @@
 {
   "name": "@loofta/pay-sdk",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Loofta Pay Button SDK - embeddable payment button that opens Loofta Pay checkout",
   "author": "Loofta",
   "license": "MIT",
@@ -14,13 +14,11 @@
       "require": "./dist/index.js"
     }
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
+  "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "dev:example": "cd examples/pay-button-demo && npm run dev"
   },
   "peerDependencies": {
     "react": ">=18.0.0"
@@ -33,16 +31,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/loofta/loofta-swap.git"
+    "url": "git+https://github.com/loofta/loofta-pay-sdk.git"
   },
-  "keywords": [
-    "loofta",
-    "pay",
-    "payment",
-    "checkout",
-    "crypto",
-    "multichain"
-  ],
+  "homepage": "https://pay.loofta.xyz/b2b/demo",
+  "bugs": {
+    "url": "https://github.com/loofta/loofta-pay-sdk/issues"
+  },
+  "keywords": ["loofta", "pay", "payment", "checkout", "crypto", "multichain"],
   "publishConfig": {
     "access": "public"
   }
